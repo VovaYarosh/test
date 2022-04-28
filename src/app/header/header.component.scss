@@ -1,0 +1,42 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Overpass", sans-serif;
+  box-shadow: 0px 4px 15px 2px #e8e8e8;
+  padding: 0 5%;
+
+  .title {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #51189a;
+  }
+
+  .nav-list {
+    width: 70%;
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .list-item {
+        font-size: 14px;
+        margin-right: 10%;
+        font-family: inherit;
+        color: #00b7ffb4;
+        list-style: none;
+        font-weight: 400;
+
+        &:last-child {
+          margin-right: 0%;
+        }
+      }
+
+      .list-item_active {
+        color: #00b6ff;
+        font-weight: 500;
+      }
+    }
+  }
+}
